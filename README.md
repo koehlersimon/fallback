@@ -43,7 +43,7 @@ You only need to install the extension. No configuration or TypoScript is needed
 
 ## The placeholder image
 
-https://raw.githubusercontent.com/koehlersimon/fallback/master/Resources/Public/Images/placeholder.jpg
+![alt text](https://raw.githubusercontent.com/koehlersimon/fallback/master/Resources/Public/Images/placeholder.jpg "Example Placeholder")
 
 ## Want to report an issue?
 
