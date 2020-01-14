@@ -16,6 +16,10 @@ This works only when you use the "src" attribute of the TYPO3 <f:image> Viewhelp
 
 The ViewHelper checks whether the image is available and then outputs a placeholder. The placeholder image can be predefined using the ViewHelper attribute "placeholder", otherwise an image supplied by the extension with the dimensions 800x600 pixels is displayed.
 
+## Installation
+
+You only need to install the extension. No configuration or TypoScript is needed!
+
 ## Example usage
 
 ```
