@@ -6,7 +6,7 @@ I created it as a little helper for my own extension development, but you can al
 
 ```
 {namespace fallback=SIMONKOEHLER\Fallback\ViewHelpers}
-<f:image src="{fallback:image()}" maxWidth="800" />
+<f:image src="{fallback:image(url:'fileadmin/my-correct-imagepath.jpg')}" maxWidth="800" />
 ```
 
 ### Important note
@@ -32,6 +32,9 @@ The ViewHelper checks whether the image is available and then outputs a placehol
 
 <!-- Image available with placeholder: Here the image is output as desired. -->
 <f:image src="{fallback:image(url:'fileadmin/my-correct-imagepath.jpg', placeholder:'fileadmin/custom-placeholder.jpg')}" />
+
+<!-- Normal usage as a TAG instead of inline: Simply returns the URL -->
+<fallback:image url="fileadmin/my-correct-imagepath.jpg" placeholder="fileadmin/custom-placeholder.jpg" />
 ```
 
 ## Want to report an issue?
@@ -46,5 +49,5 @@ https://github.com/koehlersimon/fallback/issues
 Video Training TYPO3 9 LTS (German language)
 https://www.digistore24.com/redir/246076/GOCHILLA/
 
-## Wanna spend my kids an icecream?
+## Wanna spend my kids some ice cream?
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/typo3freelancer/5)
