@@ -2,6 +2,8 @@
 
 This extension provides a simple ViewHelper to check if an image exists.
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/typo3freelancer/5)
+
 ## Example usage
 
 ```
