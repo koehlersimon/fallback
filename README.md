@@ -1,4 +1,4 @@
-# Image fallback for TYPO3
+# Image Fallback ViewHelper for TYPO3
 
 This extension provides a simple ViewHelper to check if an image exists.
 
@@ -40,6 +40,10 @@ You only need to install the extension. No configuration or TypoScript is needed
 <!-- Normal usage as a TAG instead of inline: Simply returns the URL -->
 <fallback:image url="fileadmin/my-correct-imagepath.jpg" placeholder="fileadmin/custom-placeholder.jpg" />
 ```
+
+## The placeholder image
+
+https://raw.githubusercontent.com/koehlersimon/fallback/master/Resources/Public/Images/placeholder.jpg
 
 ## Want to report an issue?
 
